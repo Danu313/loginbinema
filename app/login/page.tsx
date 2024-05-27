@@ -1,7 +1,7 @@
 import React from 'react'
-import Login from './login/Login'
+import Login from './Login'
 
-function page() {
+export default function page() {
   return (
     <div 
     className='w-screen h-screen'
@@ -15,9 +15,7 @@ function page() {
       }
     }
     >
-      <Login />
+    <Login />
     </div>
   )
 }
-
-export default page

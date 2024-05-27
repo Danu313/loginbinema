@@ -1,5 +1,5 @@
 import React from 'react'
-import Login from './login/Login'
+import Signup from './SignUp'
 
 function page() {
   return (
@@ -15,7 +15,8 @@ function page() {
       }
     }
     >
-      <Login />
+
+    <Signup />
     </div>
   )
 }
